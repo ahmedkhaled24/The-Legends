@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    tools:context=".ui.main.SplashActivity"
+    android:background="@drawable/the">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Some fictional characters"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/legends"/>
+
+
+    <TextView
+        android:id="@+id/the"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The"
+        android:fontFamily="@font/losbar"
+        android:textColor="@color/white"
+        android:textSize="65sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/legends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legends"
+        android:fontFamily="@font/losbar"
+        android:textColor="@color/white"
+        android:textSize="65sp"
+        android:layout_below="@+id/the"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmed Khaled"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
