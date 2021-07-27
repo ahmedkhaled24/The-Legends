@@ -1,4 +1,4 @@
-# The-legends
+# The-Legends-App
 
 A simple application that displays some information and images about fictional legends by using: Splash, Retrofit, MVVM, Recycle View, Callback, Picasso and Butter Knife.
 
