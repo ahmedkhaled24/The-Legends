@@ -1,6 +1,6 @@
 # The-Legends-App
 
-A simple application that displays some information and images about fictional legends by using: Splash, Retrofit, MVVM, Recycle View, Callback, Picasso and Butter Knife.
+A simple application that displays some information and images about fictional legends by using: Splash, MVVM, Retrofit, Callback, ViewModel, LiveData, RecyclerView, CardView, Picasso and Butter Knife
 
 .....................................................................
 
